@@ -30,18 +30,17 @@ form > button:hover {
 }
 
 #letters {
-  margin: 20px auto 0;
-  width: 800px;
+    margin: 20px auto 0;
 }
 
-.letter {
-  display: inline-block;
-  text-align: center;
-  background-color: #ffc800;
-  vertical-align: bottom;
+.letter rect {
+    fill: #ffc800;
 }
 
-.new {
-  font-size: 1.5em;
-  color: #ffffff;
+.new rect {
+    fill: #00ff00;
+}
+
+.new text {
+    font-size: 1.5em;
 }
